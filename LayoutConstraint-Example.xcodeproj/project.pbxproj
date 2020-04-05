@@ -17,7 +17,6 @@
 		2885B778243A2ED600A0B1A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2885B76F243A2ED600A0B1A4 /* LaunchScreen.storyboard */; };
 		2885B779243A2ED600A0B1A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2885B771243A2ED600A0B1A4 /* Main.storyboard */; };
 		2885B77A243A2ED600A0B1A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2885B773243A2ED600A0B1A4 /* AppDelegate.swift */; };
-		2885B77B243A2ED600A0B1A4 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2885B774243A2ED600A0B1A4 /* Info.plist */; };
 		2885B77C243A2ED600A0B1A4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2885B775243A2ED600A0B1A4 /* SceneDelegate.swift */; };
 /* End PBXBuildFile section */
 
@@ -149,7 +148,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2885B77B243A2ED600A0B1A4 /* Info.plist in Resources */,
 				2885B779243A2ED600A0B1A4 /* Main.storyboard in Resources */,
 				2885B777243A2ED600A0B1A4 /* Assets.xcassets in Resources */,
 				2885B778243A2ED600A0B1A4 /* LaunchScreen.storyboard in Resources */,
@@ -316,7 +314,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = LayoutConstraint/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/LayoutConstraint-Example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -335,7 +333,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = LayoutConstraint/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/LayoutConstraint-Example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
