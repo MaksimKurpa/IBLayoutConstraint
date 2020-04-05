@@ -11,7 +11,6 @@ Pod::Spec.new do |s|
   s.social_media_url = 'https://www.facebook.com/maksim.kurpa'
   s.source_files = 'Sources/*.{swift}'
   s.requires_arc = true
-  s.module_name   = 'IBLayoutConstraint'
   s.swift_version = '5.0'
-  s.ios.framework  = 'UIKit'
+
 end
