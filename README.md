@@ -60,7 +60,7 @@ IBLayoutConstraint will takes responsibity for this cases.
 
 ## How to use
 
-<h5> (!) Notice: This approach isn't quite obvious, and you should notify and admit usafe in documentation of your project.
+<h5> (!) Notice: This approach isn't quite obvious, and you should point out it in documentation of your project.
  </h5>
 
 1. Find `constraint` for configuration in Interface Builder View in Xcode.
