@@ -9,6 +9,8 @@
   </p>
 </p>
 
+## Requirements
+IBLayoutConstraint is written in Swift 5.0 and is available on iOS/Mac Catalyst 11.0 or higher.
 
 ## Installation
 
@@ -67,8 +69,29 @@ IBLayoutConstraint will takes responsibity for this cases.
 
     If you want to specify `multiplier` value or `constraint`and `multiplier` toghether, you should use `IBMultiplierLayoutConstraint`.
 
-4. Go to `Attributes Inspector` for this `constraint` in right-side panel.
-(see sample Xcode project IBLayoutConstraint-Example)
+4. Go to `Attributes Inspector` for this `constraint` in right-side panel. You'll see:
+
+##### IBLayoutConstraint
+This is your standard linear gradient blending between color stops from the start point to the end point.
+
+<div align="center">
+    <img width="388" height="454" src="https://github.com/MaksimKurpa/IBLayoutConstraint/raw/master/docs/ib_screen_1.png" alt="IBLayoutConstraint">
+</div>
+
+#### IBMultiplierLayoutConstraint
+<div align="center">
+    <img width="380" height="331" src="https://github.com/MaksimKurpa/IBLayoutConstraint/raw/master/docs/ib_screen_2.png" alt="IBLayoutConstraint">
+</div>
+
+5. Find the screen size in inches that matches your need. You'll see two textfields:
+
+   `Width` - value for landscape mode
+   
+   `Height` - value for portrait mode
+   
+   Fill the text fields. The necessary value will be applied after initialization and will change accordingly after device rotation.
+   
+##### Note: You don't need specify values for all sizes,but you need specify values for 'width' and 'height' in one line - it is required (even if you don't support rotation). If values don't specified for some size - IBLayoutConstraint will work as NSLayoutConstraint.
 
 ## Contributing
 
