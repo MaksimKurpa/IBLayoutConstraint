@@ -3,9 +3,9 @@
 <p align="left">
   <p align="left">
     <a href="https://swift.org"><img src="https://img.shields.io/badge/Swift-5.0-orange.svg?style=flat"></a>
-    <a href="https://github.com/MaksimKurpa/Linker"><img src="https://img.shields.io/cocoapods/p/Linker.svg"></a>
-    <a href="https://github.com/MaksimKurpa/Linker"><img src="https://img.shields.io/cocoapods/v/Linker.svg"></a>
-	<a href="https://raw.githubusercontent.com/Linker/master/LICENSE"><img src="https://img.shields.io/cocoapods/l/Linker.svg"></a>
+    <a href="https://github.com/MaksimKurpa/IBLayoutConstraint"><img src="https://img.shields.io/cocoapods/p/IBLayoutConstraint.svg"></a>
+    <a href="https://github.com/MaksimKurpa/IBLayoutConstraint"><img src="https://img.shields.io/cocoapods/v/IBLayoutConstraint.svg"></a>
+	<a href="https://raw.githubusercontent.com/IBLayoutConstraint/master/LICENSE"><img src="https://img.shields.io/cocoapods/l/IBLayoutConstraint.svg"></a>
   </p>
 </p>
 
