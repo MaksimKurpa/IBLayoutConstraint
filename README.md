@@ -71,17 +71,17 @@ IBLayoutConstraint will takes responsibity for this cases.
 
 4. Go to `Attributes Inspector` for this `constraint` in right-side panel. You'll see:
 
-<div align="left">
+#### IBLayoutConstraint
+
+<div align="center">
     <img width="388" height="454" src="https://github.com/MaksimKurpa/IBLayoutConstraint/raw/master/docs/ib_screen_1.png" alt="IBLayoutConstraint">
 </div>
 
-##### IBLayoutConstraint
+#### IBMultiplierLayoutConstraint
 
-<div align="left">
+<div align="center">
     <img width="380" height="331" src="https://github.com/MaksimKurpa/IBLayoutConstraint/raw/master/docs/ib_screen_2.png" alt="IBLayoutConstraint">
 </div>
-
-#### IBMultiplierLayoutConstraint
 
 5. Find the screen size in inches that matches your need. You'll see two textfields:
 
