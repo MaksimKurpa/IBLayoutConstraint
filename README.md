@@ -47,16 +47,16 @@ The main thought of this framework is convinient way to configure constraint for
 Sometimes we need to change `constant`/`multiplier` value for `NSLayoutConstraint` only for specific device, for example, for iPhone 5s (4").
 If this `UIView` with layout has special constraint for one device, we should do:
 
-1. incheritance from `UIView`
+1. inheritance from `UIView`
 2. add `outlet` to this view `@IBOutlet weak private var someConstraint: NSLayoutConstraint!` 
-3. add some code to change constraint value for specific device 
+3. add some code to change constraint's value for specific device 
 ```Swift
 if UIDevice.current.isIPhone5() {
      someConstraint.constant = 290
 }
 ```
 
-IBLayoutConstraint will takes responsibity for this cases.
+IBLayoutConstraint will takes responsibility for this cases.
 
 ## How to use
 
